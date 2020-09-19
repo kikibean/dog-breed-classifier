@@ -38,7 +38,7 @@ Kiki Huang
     
     A screenshot of the summary of the images count, image size is provided below:
         
-.[iamges1]' /images/Picture1.png
+[iamges1]: ./images/Picture1.png
 
 ### Algorithms and Techniques
     The input image will be transformed in order to feed into the CNN. Details will be discussed in the section of data preprocessing.
@@ -110,8 +110,8 @@ Kiki Huang
     For the CNN developed by combining ResNet50 and a fully connected layer, a test accuracy of 75% is achieved, which is also higher than the expected 60%.
    
     In addition to the test dataset provided, 7 images(including 2 human images, 2 cat images, 2 dog images and 1 human and dog image) are provided to test the model. Among all 7 images, only one dog image, which is a pug is incorrectly predicted as a French bulldog. In particular, the image with both human face and dog is predicted to be the dog breed in the image. And cat images are not detected as either a human or a dog.
-.[iamges2]' /images/Picture2.png
-.[iamges3]' /images/Picture3.png
+[iamges2]: ./images/Picture2.png
+[iamges3]: ./images/Picture3.png
 
 ### Justification
 

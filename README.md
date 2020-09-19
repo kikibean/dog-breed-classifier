@@ -1,3 +1,8 @@
+[//]:# (Image References)
+[iamges1]: ./images/Picture1.png "Summary"
+[iamges2]: ./images/Picture2.png "Image with human and dog"
+[iamges3]: ./images/Picture3.png "Cat"
+
 # Machine Learning Engineer Nanodegree
 
 ## Capstone Project
@@ -38,7 +43,7 @@ Kiki Huang
     
     A screenshot of the summary of the images count, image size is provided below:
         
-[iamges1]: ./images/Picture1.png
+![Summary][image1]
 
 ### Algorithms and Techniques
     The input image will be transformed in order to feed into the CNN. Details will be discussed in the section of data preprocessing.
@@ -110,9 +115,9 @@ Kiki Huang
     For the CNN developed by combining ResNet50 and a fully connected layer, a test accuracy of 75% is achieved, which is also higher than the expected 60%.
    
     In addition to the test dataset provided, 7 images(including 2 human images, 2 cat images, 2 dog images and 1 human and dog image) are provided to test the model. Among all 7 images, only one dog image, which is a pug is incorrectly predicted as a French bulldog. In particular, the image with both human face and dog is predicted to be the dog breed in the image. And cat images are not detected as either a human or a dog.
-[iamges2]: ./images/Picture2.png
-[iamges3]: ./images/Picture3.png
+![Image with human and dog][image2]
 
+![Cat][image3]
 ### Justification
 
     A ResNet50 is chosen as it utilizes a 'identity block'/'convolutional block' to solve the gradient vanishing problem during training so that we can train a neural network with deep layers and achieve good performance. As ResNet50 was trained on ImageNet database, I think the pre-trained neural network layers already contain relevant high level feature information about the dog data set.

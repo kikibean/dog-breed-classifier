@@ -43,7 +43,7 @@ Kiki Huang
     
     A screenshot of the summary of the images count, image size is provided below:
         
-![Summary][image1]
+![Summary](./images/Picture1.png)
 
 ### Algorithms and Techniques
     The input image will be transformed in order to feed into the CNN. Details will be discussed in the section of data preprocessing.
